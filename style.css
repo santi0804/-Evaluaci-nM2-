@@ -1,0 +1,44 @@
+h1 {
+  color: black;
+}
+.imagenCentrada {
+  display: block;
+  margin: 0 auto;
+}
+p {
+  color: blue;
+  font-style: italic;
+}
+
+ul {
+  color: black;
+  font-size: 24px;
+}
+.modelos {
+  margin: 20px;
+  padding: 10px;
+  font-style: italic normal;
+  color: blue;
+  background-color: coral;
+}
+div p {
+  border: 2px solid red;
+  position: absolute;
+  z-index: cursor pointer;
+}
+#div1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  z-index: 2;
+}
+
+#boton1 {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  z-index: 1;
+}
